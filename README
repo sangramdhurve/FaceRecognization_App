@@ -1,0 +1,33 @@
+1. Setup
+1.1 Install Dependencies
+1.2 Import Libraries
+1.3 Check GPU
+1.4 Create Folders
+
+2. Collect Positives and Anchors
+2.1 Unzip Labelled Faces from given dataset
+2.2 Collect Positive and Anchor Classes
+
+3. Load and Preprocess Images
+3.1 Get Image Directories
+3.2 Preprocessing - Scale and Resize
+3.3 Create Labelled Dataset
+3.4 Build Train and Test Partition
+
+4. Model Engineering
+4.1 Build Embedding Layer
+4.2 Build Distance Layer
+4.3 Make Siamese Model
+
+5. Training
+5.1 Setup Loss and Optimizer
+5.2 Establish Checkpoints
+5.3 Build Train Step Function
+5.4 Build Training Loop
+5.5 Train the Model
+
+6. Evaluate Model
+
+7. Save Model
+
+8. Real Time Test
